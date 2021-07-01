@@ -56,6 +56,7 @@ int main()
 	}
 	if (buffer.letter[0] != '\0') list.push_back(buffer);
 
+	//ˆ³kŒã
 	printf("ƒŠƒXƒg\n");
 	for (auto a : list) {
 		for (int i = 0; i < (sizeof(a.letter) / sizeof(a.letter[0])); i++) {
